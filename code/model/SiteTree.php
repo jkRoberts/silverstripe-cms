@@ -2694,7 +2694,7 @@ class SiteTree extends DataObject implements PermissionProvider,i18nEntityProvid
 			}
 		}
 
-		asort($children)
+		asort($children);
 
 		$flags = $this->getStatusFlags();
 		$treeTitle = sprintf(
